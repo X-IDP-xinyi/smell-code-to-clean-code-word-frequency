@@ -1,3 +1,4 @@
+import wordfrequency.WordFrequencyGame;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -7,9 +8,6 @@ import static org.hamcrest.core.Is.is;
  * Created by jxzhong on 2018/5/22.
  */
 class WordFrequencyGameTest {
-
-
-
     @Test
     void should_get_the_1_when_input_the() {
         //Given
