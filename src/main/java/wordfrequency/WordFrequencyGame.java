@@ -1,3 +1,7 @@
+package wordfrequency;
+
+import input.Input;
+
 import java.util.*;
 
 /**
