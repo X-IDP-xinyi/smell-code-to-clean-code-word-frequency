@@ -2,12 +2,12 @@
  * Created by jxzhong on 2018/5/22.
  */
 public class Input {
-    private String value;
-    private int count;
+    private final String value;
+    private final int count;
 
-    public Input(String w, int i) {
-        this.value = w;
-        this.count = i;
+    public Input(String value, int count) {
+        this.value = value;
+        this.count = count;
     }
 
     public String getValue() {
